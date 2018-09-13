@@ -1,0 +1,14 @@
+Timestamp :  0850
+SessionID :  [0a296869_00000d8e_5b8962d3_0374_0031]
+CallVariable4 :  [TCR0OPR0CNS1ACR0CVR0SWS1SNR0ANR0PNR0N]
+CallVariable6 :  [05|N|N|5 |T|1|NN|CIN    |MMN    |P]
+Ecc_29 :  [1|N|1|ALONZA              |IRMA        |            |        |        |00002388149459804165|5|1  2035554955                |                             |50000]
+Ecc_30 :  []
+Ecc_31 :  []
+Timestamp :  0851
+SessionID :  [0a296869_00000d8e_5b896339_0375_0032]
+CallVariable4 :  [TCR0OPR0CNS1ACR0CVR0SWR0SNR0ANR0PNR0N]
+CallVariable6 :  [05|N|N|5 |T|3|NN|CIN    |None   |I]
+Ecc_29 :  [1|N|1|MANSOUR             |THOMAS      |G           |        |        |00000585449769107163|5|1  9049549930                |                             |50000]
+Ecc_30 :  []
+Ecc_31 :  []
