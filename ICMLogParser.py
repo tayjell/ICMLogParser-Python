@@ -114,6 +114,7 @@ def printResults(multiMap, userInputCallsList):
 
 def outputResults(multiMap, userInputCallsList):
     printFlag = "n";
+    firstPrintFlag = 0;	
     outputFile = open("Output.txt", "w");
     for x in userInputCallsList:
        callsList = multiCallMap[x];   
@@ -124,7 +125,9 @@ def outputResults(multiMap, userInputCallsList):
            printFlag = input();
            if(printFlag.lower() == "y" ):
               for callObj2 in callsList:
-                 outputFile.write("\n" + str(len(callsList)) + " Result(s) were found for: "+ str(x) + "\n");
+                 if(firstPrintFlag == 0):			  
+                   outputFile.write(str(len(callsList)) + " Result(s) were found for: "+ str(x) + "\n");
+                   firstPrintFlag = 1			   
                  outputFile.write("Timestamp :  " + callObj2.callTime + "\n");
                  outputFile.write("SessionID :  " + callObj2.sessionID + "\n");
                  outputFile.write("CallVariable4 :  " + callObj2.callVar4 + "\n");
